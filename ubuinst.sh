@@ -192,7 +192,7 @@ function install_continue {
 function install_continue2 {
 cd /bin || exit
 rm pweb > /dev/null 2>&1
-wget https://github.com/Jhowmt1989/Jhowpainelweb/raw/main/painelwv5/pweb > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RPful/PAINE/pweb > /dev/null 2>&1
 chmod 777 pweb > /dev/null 2>&1
 clear
 [[ ! -d /bin/ppweb ]] && mkdir /bin/ppweb
@@ -333,7 +333,7 @@ clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
 echo -e "WEB SWIT SSH" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mBy @swittecnologia\033[1;36m" | lolcat
+echo -e "                              \033[1;31mBy @rp4321\033[1;36m" | lolcat
 echo ""
 chave=$(curl -sSL "https://raw.githubusercontent.com/RPful/PAINE/chave") &>/dev/null
 
